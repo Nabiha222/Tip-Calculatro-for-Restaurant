@@ -1,0 +1,234 @@
+/*______---______----______----_____ CSS CODE START ______---______---______---_____*/
+
+*, *::after, *::before {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+
+  line-height: 1em;
+  margin: 0;
+  
+  }
+
+body, html {
+
+  height: 100vh;
+
+}
+
+
+body {
+
+  background: url(img/blck.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Itim', cursive;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.top_area {
+
+  width: 90%;
+  max-width: 600px;
+
+}
+
+.logo_area {
+
+background: #92918b;
+text-align: center;
+
+}
+
+
+/* Form Area Style */
+
+#form {
+
+  background: #2f3f4d;
+   
+}
+
+#form label {
+
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  
+}
+
+#form input {
+
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 12px 15px;
+  border: 0;
+  border-radius: 25px;
+  font-family: 'Itim', cursive;
+  background: #3d5063;
+  width: 100%;
+  color: #ffff;
+
+}
+
+
+.people_area {
+
+margin-top: 20px;
+
+}
+
+.people_area p {
+
+font-size: 18px;
+margin-bottom: 15px;
+
+}
+
+.inner_people {
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.inner_people ul {
+
+list-style: none;
+display: flex;
+
+}
+
+.inner_people ul li {
+
+font-size: 30px;
+
+}
+
+
+#minSum {
+
+background: #eb3b5a;
+
+}
+
+#plusSum {
+
+  background: #f7b731;
+
+}
+
+#minSum, #plusSum {
+
+width: 50px;
+height: 50px;
+cursor: pointer;
+border-radius: 50%;
+text-align: center;
+padding-top: 4px;
+
+}
+
+#peoSum {
+
+margin: 5px 20px 0;
+
+}
+
+#clctr {
+
+background: #9c88ff;
+border: 0;
+padding: 10px 35px;
+font-family: 'Itim', cursive;
+font-size: 20px;
+border-radius: 25px;
+color: #ffff;
+cursor: pointer;
+transition: 0.3s;
+
+}
+
+#clctr:hover{
+
+background: #7e64ff;
+
+}
+
+/* Summary Area Style */
+
+.total_per_person {
+
+background: #161d22c5;
+margin-bottom: 0px;
+display: none;
+
+}
+
+.logo_area h2 {
+
+  color: #1d2833;
+ 
+  
+  }
+
+.logo_area, .total_per_person, #form  {
+
+padding: 25px 35px;
+border-radius: 10px;
+margin-bottom: 20px;
+  
+}
+
+.total_per_person {
+
+background: #161d22c5;
+margin-bottom: 0px;
+
+}
+
+
+.total_per_person div {
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.total_per_person hr {
+
+border: 2px dashed #ddd;
+margin-bottom: 10px;
+
+}
+
+.total_per_person h2 {
+
+color: #ceda8b;
+text-transform: uppercase;
+font-size: 30px;
+margin-bottom: 20px;
+
+}
+
+.total_per_person h3, .total_per_person h4 {
+
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 10px;
+  
+  }
+
+
+  /* ______---______----______----_____CSS CODE END______---______----______----_____ */

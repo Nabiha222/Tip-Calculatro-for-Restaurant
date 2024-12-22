@@ -1,0 +1,120 @@
+<!DOCTYPE html>                                                                                                               
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="Tip_clctr.css">
+  <title> Tip Calculator </title>
+</head>
+<body>
+  
+  <!--======================================== HTML CODE START ======================================-->
+
+  
+<!---------- Tip Clctr area --------->
+
+<div class="top_area">
+  <div class="logo_area">
+    <h2> Tip Calculator </h2>
+  </div>
+
+  <!------------ Bill area ----------->
+
+  <div id="form">
+    <label for="totalBill">
+      Total Bill
+    </label>
+    <input type="text" id="totalBill" placeholder="Enter your Total Bill" >
+    
+    <!----------- Tip area ----------->
+
+    <label for="tipMain">
+      Tip  <i class="fa-solid fa-percent"></i>
+    </label>
+    <input type="text" id="tipMain" placeholder="Expected Tip" >
+
+<!----------- People area ------------>
+
+<div class="people_area">
+  <p>People</p>
+  <div class="inner_people">
+    <ul>
+      <li id="minSum">-</li>
+      <li id="peoSum">1</li>
+      <li id="plusSum">+</li>
+    </ul>
+
+    <!----------- Butto area ---------->
+
+    <button id="clctr">Calculator</button>
+
+  </div>
+</div>
+</div>
+
+<!------------------ SUMMARY area ----------------->
+
+
+<div class="total_per_person">
+  <h2> Summary </h2>
+  <div>
+
+    <!------ Full Bill ------>
+
+    <h3> Total Bill</h3>
+    <h4>$ <span id="finalBill">0</span></h4>
+
+
+    
+  </div>
+
+
+
+  <div>
+
+    <!------ Boksis ------>
+
+    <h3> Tip Amount</h3>
+    <h4>$ <span id="tipAmnt">0</span></h4>
+
+
+    
+  </div>
+
+
+
+  <div>
+
+    <!------ KOR ------>
+
+    <h3> Tax <span> 5% </span> </h3>
+    <h4>$ <span id="taxAmnt">0</span></h4>
+
+    <hr>
+
+
+    <!------- Person Bill ------->
+
+    <h3> Total Per Person </h3>
+    <h4>$ <span id="tptalPerson">0</span></h4>
+    
+  </div>
+</div>
+</div>
+
+
+
+  <!-- ==================================== HTML CODE END ===================================== -->
+
+
+  <script src="Tip_clctr.js"></script>
+</body>
+</html>
